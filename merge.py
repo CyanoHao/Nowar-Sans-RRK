@@ -258,17 +258,18 @@ def BuildHanguelTranslit(font, latinNames):
 
     # build underline glyphs
     for width in underlineWidths:
+        sideBearing = 20
         if isCff:
             # anti-clockwise
             glyf_[".rrkUnderline.{}".format(width)] = {
                 "advanceWidth": 0,
-                "contours": [[{"x": 0, "y": -80}, {"x": width, "y": -80}, {"x": width, "y": -60}, {"x": 0, "y": -60}]]
+                "contours": [[{"x": sideBearing, "y": -80}, {"x": width - sideBearing, "y": -80}, {"x": width - sideBearing, "y": -60}, {"x": sideBearing, "y": -60}]]
             }
         else:
             # clockwise
             glyf_[".rrkUnderline.{}".format(width)] = {
                 "advanceWidth": 0,
-                "contours": [[{"x": 0, "y": -80}, {"x": 0, "y": -60}, {"x": width, "y": -60}, {"x": width, "y": -80}]]
+                "contours": [[{"x": sideBearing, "y": -80}, {"x": sideBearing, "y": -60}, {"x": width - sideBearing, "y": -60}, {"x": width - sideBearing, "y": -80}]]
             }
 
 
