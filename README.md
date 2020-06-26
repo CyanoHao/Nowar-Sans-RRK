@@ -2,6 +2,8 @@
 
 Have no idea how to pronounce Hanguel? Romanization helps! (no sandhi)
 
+![Preview](image/yuyu-rokmyeong.jpg)
+
 # 有爱黑体（文观部式谚文转写）
 
 不认识谚文？无法读出韩国友人的名字？拉丁转写帮助你轻松阅读韩国语谚文。（不支持语流音变）
