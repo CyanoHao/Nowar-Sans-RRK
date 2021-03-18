@@ -1,3 +1,11 @@
+# Archived / 已归档 / 已歸檔
+
+Revised Romanization of Korean has been merged to Nowar Sans (the Romaja variants).
+
+谚文转写现已并入有爱黑体（Romaja）。
+
+諺文轉寫現已併入有愛黑體（Romaja）。
+
 # Nowar Sans (Revised Romanization of Korean)
 
 Have no idea how to pronounce Hanguel? Romanization helps! (no sandhi)
